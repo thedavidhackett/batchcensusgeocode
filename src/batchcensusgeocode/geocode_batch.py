@@ -7,7 +7,7 @@ def get_census_geocode_batch_results(
         inputpath : str,
         outputpath : str,
         header : bool = True,
-        chunksize : int = 30
+        chunksize : int = 5000
 ):
     header = True
     chunksize = 30
