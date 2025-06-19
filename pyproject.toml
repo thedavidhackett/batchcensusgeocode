@@ -1,0 +1,31 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "batchcensusgeocode"
+version = "0.0.1"
+dependencies = [
+    "censusgeocode"
+    "tqdm"
+    "pandas"
+]
+requires-python = ">=3.8"
+authors = [
+  {name = "David Hackett", email = "davidhackett12@gmail.com"},
+]
+description = "Makes use of censusgeocode and the census api to batch geocode large amounts of addresses"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICEN[CS]E.*"]
+keywords = ["geocode", "census", "batch"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python"
+]
+
+[project.urls]
+Homepage = "https://example.com"
+Repository = "https://github.com/me/spam.git"
+"Bug Tracker" = "https://github.com/me/spam/issues"
+Changelog = "https://github.com/me/spam/blob/master/CHANGELOG.md"
