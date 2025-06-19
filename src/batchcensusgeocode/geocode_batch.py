@@ -17,7 +17,7 @@ def get_census_geocode_batch_results(
         'vintage': 'Current_Current',
     }
 
-    with open('data/test.csv') as f:
+    with open(inputpath) as f:
         addresses = f.readlines()
 
     start_row = int(header)
