@@ -5,11 +5,6 @@ build-backend = "hatchling.build"
 [project]
 name = "batchcensusgeocode"
 version = "0.0.1"
-dependencies = [
-    "censusgeocode"
-    "tqdm"
-    "pandas"
-]
 requires-python = ">=3.8"
 authors = [
   {name = "David Hackett", email = "davidhackett12@gmail.com"},
@@ -25,7 +20,6 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://example.com"
-Repository = "https://github.com/me/spam.git"
-"Bug Tracker" = "https://github.com/me/spam/issues"
-Changelog = "https://github.com/me/spam/blob/master/CHANGELOG.md"
+Homepage = "https://github.com/thedavidhackett/batchcensusgeocode"
+Repository = "https://github.com/thedavidhackett/batchcensusgeocode"
+"Bug Tracker" = "https://github.com/thedavidhackett/batchcensusgeocode/issues"
