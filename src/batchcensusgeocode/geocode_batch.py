@@ -9,8 +9,6 @@ def get_census_geocode_batch_results(
         header : bool = True,
         chunksize : int = 5000
 ):
-    header = True
-    chunksize = 30
     url = "https://geocoding.geo.census.gov/geocoder/geographies/addressbatch"
     data = {
         'benchmark': 'Public_AR_Current',
@@ -44,5 +42,8 @@ def get_census_geocode_batch_results(
 
             start_row = end_row
             end_row = end_row + chunksize
+
+    
+    print(f'Geocoded addresses outputed: {outputpath}')
 
 
