@@ -2,6 +2,7 @@ import requests
 import tempfile
 import os
 import csv
+from typing import List
 
 
 def _get_single_address(address):
